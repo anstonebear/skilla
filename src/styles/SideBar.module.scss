@@ -1,0 +1,23 @@
+.sidebar {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	margin-top: -80px;
+	height: 100dvh;
+	positions: absolute;
+	background-color: #091336;
+	max-width: 240px;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		items-align: center;
+		justify-content: center;
+		gap: 32px;
+	}
+	&__nav {
+		flex-direction: column;
+		display: flex;
+		items-align: center;
+		justify-content: center;
+	}
+}

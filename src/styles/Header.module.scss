@@ -1,0 +1,40 @@
+.header {
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	height: 80px;
+	padding: 20px 0;
+	background-color: white;
+	box-shadow: 0px 4px 5px 0px #e9edf3;
+	&__wrapper {
+		display: flex;
+		align-items: center;
+	}
+	&__date {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		@apply text-gray;
+	}
+	&__progressBars {
+		&__wrapper {
+			margin-left: 86px;
+			display: flex;
+			gap: 56px;
+		}
+		&__text {
+			display: flex;
+			gap: 4px;
+			font-size: 14px;
+			line-height: 148%;
+		}
+	}
+	&__avatar {
+		display: flex;
+		gap: 4px;
+	}
+}
+.arrow {
+	width: 24px;
+	height: 24px;
+}
